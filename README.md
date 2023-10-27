@@ -34,7 +34,7 @@ devices. (and unlock the bootloader) using Termux.
 
 
 ## Instructions
-1) Install required apps [termux](https://github.com/termux/termux-app), [termux-api](https://github.com/termux/termux-api) and ```account.apk``` from repo.
+1) Install required apps [termux](https://github.com/termux/termux-app), [termux-api](https://github.com/termux/termux-api) and ```account.apk``` from repo. watch these YouTube video [YouTube](https://youtu.be/zTArE7sixJI?si=Limc8ksk2CyJ--P_) for setup etc.
 
 2) Clone this repo.
 ```console
