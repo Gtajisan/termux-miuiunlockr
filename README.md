@@ -1,4 +1,4 @@
-# termux-miunlock
+# termux-miuiunlockr
 A program that can be used to retrieve the bootloader unlock token for Xiaomi devices. (and unlock the bootloader) using Termux
 
 **Note: This tool cannot bypass the 7, 14, 30 day unlock time.**
@@ -6,7 +6,7 @@ A program that can be used to retrieve the bootloader unlock token for Xiaomi de
 
 ## Usage
 ```console
-Usage: termux-miunlock [OPTIONS] DATA
+Usage: termux-miuiunlockr [OPTIONS] DATA
 A program that can be used to retrieve the bootloader unlock token for Xiaomi
 devices. (and unlock the bootloader) using Termux.
 *     DATA                Install account.apk from repo, login and copypaste
@@ -16,7 +16,7 @@ devices. (and unlock the bootloader) using Termux.
 *     --product=PRODUCT   Used to verify device product
       --region=REGION     Tool server host regions: india, global, china,
                             russia, europe
-                            Default: india
+                            Default: Bangladesh, india
 *     --token=TOKEN       Used to verify device token
       --version           Version information
       
@@ -28,7 +28,7 @@ devices. (and unlock the bootloader) using Termux.
 
 2) Clone this repo.
 ```console
-git clone https://github.com/Gtajisan/termux-miunlock.git && cd termux-miunlock
+git clone https://github.com/Gtajisan/termux-miuiunlockr.git && cd termux-miunlock
 ```
 
 3) Run ```setup.sh``` to install required packages.
@@ -69,7 +69,7 @@ if the code succeeds it will give you a really long string which is the unlock t
 
 You should pass correct region which you used in account.apk if you got error 20045
 
-available options: `india, global, china, russia, europe`
+available options: `india, global, china, russia, europe, Bangladesh `
 
 ```console
 chmod +x get_token.sh && ./get_token.sh --product=PRODUCT --region=REGION --token=TOKEN DATA
