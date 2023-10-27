@@ -28,7 +28,7 @@ devices. (and unlock the bootloader) using Termux.
 
 2) Clone this repo.
 ```console
-git clone https://github.com/RohitVerma882/termux-miunlock.git && cd termux-miunlock
+git clone https://github.com/Gtajisan/termux-miunlock.git && cd termux-miunlock
 ```
 
 3) Run ```setup.sh``` to install required packages.
