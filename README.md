@@ -3,6 +3,16 @@ A program that can be used to retrieve the bootloader unlock token for Xiaomi de
 
 **Note: This tool cannot bypass the 7, 14, 30 day unlock time.**
 
+## SCREEN SHOTS [Termux]
+
+<br>
+<p align="center">
+<img width="50%" src="https://i.postimg.cc/65gctdSL/received-1700544700442510.jpg"/>
+<img width="46%" src="https://i.postimg.cc/qMVcFkCj/FB-IMG-1698426364938.jpg"/>
+</p>
+
+
+
 
 ## Usage
 ```console
