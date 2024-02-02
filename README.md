@@ -51,8 +51,12 @@ git clone https://github.com/Gtajisan/termux-miuiunlockr.git && cd termux-miuiun
 chmod +x setup.sh && ./setup.sh
 ```
 4) go mi account and login and setup make sure  ```login```
++ and check you're device
+```console
+mi-fastboot devices
+```
 
-5) Get device ```product```
+6) Get device ```product```
 ```console
 mi-fastboot getvar product
 ```
