@@ -45,6 +45,11 @@ devices. using Termux.
 * login and bind your xiaomi account on your target device.
 * Clone this repo.
 
+### clone and tool run command
+```console
+``enjoy``
+
+```
 1) setup```setup```command
 ```console
 pkg install update && pkg install git && pkg install vim
