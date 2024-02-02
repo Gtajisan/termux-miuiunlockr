@@ -1,5 +1,9 @@
-# termux-miuiunlockr
+<div align="center">
+
+## termux-miuiunlockr
 A program that can be used to retrieve the bootloader unlock token for Xiaomi devices. (and unlock the bootloader) using Termux
+### developers information 
+[!modified developer](https://github.com/Gtajisan/termux-miuiunlockr/assets/124022055/7ee1c709-5266-40d0-9ca8-761ba5e008b0)]
 
 **Note: This tool cannot bypass the 7, 14, 30 day unlock time.**
 
