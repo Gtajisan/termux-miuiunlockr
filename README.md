@@ -36,9 +36,13 @@ devices. (and unlock the bootloader) using Termux.
 
 
 ## Instructions
-1) Install required apps [termux](https://github.com/termux/termux-app), [termux-api](https://github.com/termux/termux-api) and ```account.apk``` from repo. watch these YouTube video [YouTube](https://youtu.be/zTArE7sixJI?si=Limc8ksk2CyJ--P_) for setup etc.  [mediafire](https://www.mediafire.com/file/1bdsv4ksnebqg8z/MiAccountUnlock.apk/file) for account ad
+ Install required apps [termux](https://github.com/termux/termux-app), [termux-api](https://github.com/termux/termux-api) and ```account.apk``` from repo. watch these YouTube video [YouTube](https://youtu.be/zTArE7sixJI?si=Limc8ksk2CyJ--P_) for setup etc.  [mediafire](https://www.mediafire.com/file/1bdsv4ksnebqg8z/MiAccountUnlock.apk/file) for account ad
+1) setup```setup```command
+```console
+pkg install update && pkg install git && pkg install vim
+```
 
-2) Clone this repo.
+3) Clone this repo.
 ```console
 git clone https://github.com/Gtajisan/termux-miuiunlockr.git && cd termux-miuiunlockr && ls
 ```
