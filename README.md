@@ -18,25 +18,32 @@ A program that can be used to retrieve the bootloader unlock token for Xiaomi de
 
 ## Usage
 ```console
-Usage: termux-miuiunlockr [OPTIONS] DATA
+Usage: get_token.sh [OPTIONS] DATA
 A program that can be used to retrieve the bootloader unlock token for Xiaomi
-devices. (and unlock the bootloader) using Termux.
-*     DATA                Install account.apk from repo, login and copypaste
+devices. using Termux.
+*     DATA                Install account.apk from repo, login and copy-paste
                             the response.
       --debug             Output messages about what the tool is doing
       --help              Display a help message
 *     --product=PRODUCT   Used to verify device product
-      --region=REGION     Tool server host regions: india, global, china,
+      --region=REGION     Tool server hosts or regions: india, global, china,
                             russia, europe
-                            Default: Bangladesh, india
+                            Default: india
 *     --token=TOKEN       Used to verify device token
       --version           Version information
-      
 ```
+### Requirements
+* 1) Verified Xiaomi Account.
+* 2) Two Android device (Host & Target)
+* 3) USB Otg & Data cable.
+* 4) Internet Connection.
 
 
-## Instructions
-1) Install required apps [termux](https://github.com/termux/termux-app), [termux-api](https://github.com/termux/termux-api) and ```account.apk``` from repo. watch these YouTube video [YouTube](https://youtu.be/zTArE7sixJI?si=Limc8ksk2CyJ--P_) for setup etc.  [mediafire](https://www.mediafire.com/file/1bdsv4ksnebqg8z/MiAccountUnlock.apk/file) for account ad
+## some  Instructions
+*  Install required apps [termux](https://github.com/termux/termux-app), [termux-api](https://github.com/termux/termux-api) and ```account.apk``` from repo. watch these YouTube video [YouTube](https://youtu.be/zTArE7sixJI?si=Limc8ksk2CyJ--P_) for setup etc.  [mediafire](https://www.mediafire.com/file/1bdsv4ksnebqg8z/MiAccountUnlock.apk/file) for account add
+
+* login and bind your xiaomi account on your target device.
+* Clone this repo.
 
 1) setup```setup```command
 ```console
