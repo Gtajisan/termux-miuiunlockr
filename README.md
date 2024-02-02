@@ -40,7 +40,7 @@ devices. (and unlock the bootloader) using Termux.
 
 2) Clone this repo.
 ```console
-git clone https://github.com/Gtajisan/termux-miuiunlockr.git && cd termux-miunlock
+git clone https://github.com/Gtajisan/termux-miuiunlockr.git && cd termux-miuiunlockr
 ```
 
 3) Run ```setup.sh``` to install required packages.
