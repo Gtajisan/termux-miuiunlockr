@@ -40,25 +40,35 @@ devices. (and unlock the bootloader) using Termux.
 
 2) Clone this repo.
 ```console
-git clone https://github.com/Gtajisan/termux-miuiunlockr.git && cd termux-miuiunlockr
-```
 
+pkg install update
+```
+```
+pkg install git
+```
+```
+pkg install vim
+```
+```
+git clone https://github.com/Gtajisan/termux-miuiunlockr.git && cd termux-miuiunlockr && ls
+```
 3) Run ```setup.sh``` to install required packages.
 ```console
 chmod +x setup.sh && ./setup.sh
 ```
+4) go mi account and login and setup make sure  ```login```
 
-4) Get device ```product```
+5) Get device ```product```
 ```console
 mi-fastboot getvar product
 ```
 
-5) Get device ```token```
+6) Get device ```token```
 ```console
 mi-fastboot getvar token
 ```
 
-6) Get device ```token``` for mtk device.
+7) Get device ```token``` for mtk device.
 ```console
 mi-fastboot oem get_token
 ```
@@ -73,7 +83,7 @@ example:
 VQECMAEQTSdjm281zqPylolzfxy3bQMGbWVybGluAhTVfQBXJGUJ78qoZQ0ctBDLQ1PkJg==
 ```
 
-7) Run ```get_token.sh``` script with required arguments.
+8) Run ```get_token.sh``` script with required arguments.
 ```console
 chmod +x get_token.sh && ./get_token.sh --product=PRODUCT --token=TOKEN DATA
 ```
@@ -87,12 +97,12 @@ available options: `india, global, china, russia, europe, Bangladesh `
 chmod +x get_token.sh && ./get_token.sh --product=PRODUCT --region=REGION --token=TOKEN DATA
 ```
 
-8) Convert unlock token string to binary token.
+9) Convert unlock token string to binary token.
   ```console
   echo "UNLOCK_TOKEN" | xxd -r -p > token.bin
   ```
 
-9) Type:
+10) Type:
 ```console
 mi-fastboot stage token.bin && mi-fastboot oem unlock
 ```
