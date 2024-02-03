@@ -41,7 +41,7 @@ devices. using Termux.
 
 
 ## some  Instructions
-*  Install required apps [termux](https://github.com/termux/termux-app), [termux-api](https://github.com/termux/termux-api) and ```account.apk``` from repo. watch these YouTube video [YouTube](https://youtu.be/zTArE7sixJI?si=Limc8ksk2CyJ--P_) for setup etc.  [mediafire](https://www.mediafire.com/file/1bdsv4ksnebqg8z/MiAccountUnlock.apk/file) for account add
+*  Install required apps [termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk), [termux-api](https://github.com/termux/termux-api) and ```account.apk``` from repo. watch these YouTube video [YouTube](https://youtu.be/zTArE7sixJI?si=Limc8ksk2CyJ--P_) for setup etc.  [mediafire](https://www.mediafire.com/file/1bdsv4ksnebqg8z/MiAccountUnlock.apk/file) for account add
 
 * login and bind your xiaomi account on your target device.
 * Clone this repo.
