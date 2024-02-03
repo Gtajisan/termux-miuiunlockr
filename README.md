@@ -50,7 +50,7 @@ devices. using Termux.
 
 1) setup```setup```command
 ```console
-pkg install update && pkg install git && pkg install vim
+pkg install update && pkg install git && pkg install vim && pkg install termux-api
 ```
 
 3) Clone this repo.
