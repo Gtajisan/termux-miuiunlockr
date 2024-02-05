@@ -49,10 +49,11 @@ devices. using Termux.
 ### clone and tool run command Enjoy <😺>
 
 1) setup```setup```command
+Agar koi Error aa rha hai tool installation me to ye sabhi pkg install karke fir se try karna:-
 ```console
-pkg install update && pkg install git && pkg install vim && pkg install termux-api
-```
+pkg update && upgrade && pkg install git && pkg install vim && pkg install curl && pkg install wget
 
+```
 3) Clone this repo.
 ```console
 git clone https://github.com/Gtajisan/termux-miuiunlockr.git && cd termux-miuiunlockr && ls
